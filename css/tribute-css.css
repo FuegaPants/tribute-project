@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 32px;
+    background-color: rgb(73, 72, 72);
+    color: bisque;
+    border-bottom: 4px solid #fdb347;
+}
+
+#img-caption {
+    margin: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: bisque;
+}
+
+#img-div {
+    background: linear-gradient(rgba(64, 38, 88, 0.8),rgba(50, 20, 66, 0.8), rgba(20,0, 44, 0.8));
+    max-width: 75%;
+    max-height: 75%;
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+p, h1, h2, h3 {
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(231, 211, 186);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+}
+
+main {
+    background-color: dimgray;
+}
+
+.fuegagallery {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    gap: 16px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border: 5px solid bisque;
+    grid-template-columns: 1fr;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+
+}
+
+.imagetitle {
+    text-align: center;
+    color: rgb(247, 239, 230);
+    padding-bottom: 50px;
+}
+
+.gallery::after {
+    content: "";
+    width: 350px;
+}
+
+.divider {
+    background-color: #fdb347;
+    border-bottom: 3px solid #fdb347;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    columns: rgb(66, 62, 62);
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+fieldset  {
+    border-color: #fdb347;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: auto;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(138, 103, 17);
+    border-color: black;
+    color: black;
+}
+
+footer {
+        text-align: center;
+        padding: 32px;
+        background-color: rgb(73, 72, 72);
+        color: bisque;
+        border-bottom: 4px solid #fdb347;
+}
